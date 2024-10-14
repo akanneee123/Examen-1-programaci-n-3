@@ -1,0 +1,280 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.pantalla {
+    animation: fadeIn 1.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#inicio {
+    position: relative;
+    background-image: url('../images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+#inicio h1 {
+    
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#inicio h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #464646;
+}
+
+#comenzar-btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #218838;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#comenzar-btn:hover {
+    background-color: #218838;
+}
+
+/*Para que la pantalla de inicio se vea bien en dispositivos móviles.*/
+@media (max-width: 600px) {
+    #inicio h1 {
+        font-size: 1.8em;
+    }
+
+    #inicio p {
+        font-size: 1em;
+    }
+
+    #comenzar-btn {
+        padding: 10px 40px;
+        font-size: 0.9em;
+    }
+}
+
+/*Estilos para la pantalla de registro*/
+#registro {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#enviar-btn {
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#enviar-btn:hover {
+    background-color: #218838;
+}
+
+/*Estilos para la pantalla de acerca*/
+.imagenes-ecobloques {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-ecobloque {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#acerca {
+    
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+    text-align: center;
+}
+
+#acerca p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#acerca button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#acerca button:hover {
+    background-color: #218838;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #218838;
+}
+
+/*Las imagenes de los premios*/
+.img-premio {
+    width: 30%;
+    max-width: 200px; /* Limita el ancho máximo para que no crezcan demasiado */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px; /* Añade un espacio alrededor de cada imagen */
+}
+
+.imagenes-tiendas,
+.imagenes-eventos,
+.imagenes-restaurante {
+    
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se muevan a la siguiente línea si son muchas */
+    justify-content: center; /* Centra las imágenes */
+    gap: 15px; /* Añade espacio entre las imágenes */
+    margin-top: 20px;
+}
+#premios {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-y: auto; /* Permite el desplazamiento si el contenido es demasiado largo */
+}
+
+#premios h1, #premios h2, #acerca h1, #acerca h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+#premios p {
+    font-size: 1.2em;
+    line-height: 1.5; /* Mejora la legibilidad */
+    margin-bottom: 50px;
+}
+
+#premios button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#premios button:hover {
+    background-color: #218838;
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px; /* Añade espacio entre los botones */
+}
+
+@media (max-width: 600px) {
+    .botones {
+        flex-direction: column;
+        gap: 10px; /* Espacio entre botones en pantallas pequeñas */
+    }
+}
+
+#acerca, #premios, #registro {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+#ingresar {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#info-usuario {
+    margin-top: 20px;
+}
+
+.info-oculta {
+    display: none; /* Oculta la información hasta que se muestre */
+}

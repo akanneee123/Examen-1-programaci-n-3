@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div id="ingresar" class="pantalla">
+        <h1>Ingresar</h1>
+        <p>Por favor, ingresa tu número de cédula para ver tu información.</p>
+
+        <div class="form-group">
+            <label for="cedula">Número de Cédula:</label>
+            <input type="text" id="cedula" name="cedula" required>
+        </div>
+
+        <button id="buscar-btn" class="btn">Buscar</button>
+
+        <!-- Aquí se mostrará la información del usuario -->
+        <div id="info-usuario" class="info-oculta">
+            <h2>Información del Usuario</h2>
+            <p><strong>Nombre Completo:</strong> <span id="nombre-usuario"></span></p>
+            <p><strong>Fecha de Nacimiento:</strong> <span id="fecha-nacimiento-usuario"></span></p>
+            <p><strong>Cantidad de Eco-bloques Entregados:</strong> <span id="cantidad-ecobloques"></span></p>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

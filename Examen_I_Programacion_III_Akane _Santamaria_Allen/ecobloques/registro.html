@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro e Ingreso</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div id="registro" class="pantalla">
+        <h1>Registro de Eco-Bloques</h1>
+        
+        <form id="form-registro">
+            <div class="form-group">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="cedula">Número de Cédula:</label>
+                <input type="text" id="cedula" name="cedula" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+            </div>
+
+            <div class="botones">
+                <button type="button" id="registrar-btn" class="btn">Registrarse</button>
+                <button type="button" id="ingresar-btn" class="btn">Ingresar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
