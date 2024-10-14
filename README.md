@@ -1,8 +1,13 @@
-Análisis de Examen 
+Análisis de Examen
+
 Por: Akane Santamaria Allen
+
 Tema: Sistema de gestión de reciclaje 
+
 Ecoembes
+
 Sistema de ecobloques
+
 La acumulación de residuos no reciclables, como envolturas de galletas, tubos de pasta de dientes y plásticos rígidos, es un problema significativo, ya que estos materiales no son aceptados en centros de acopio y terminan en vertederos o, peor aún, en la naturaleza. Esto contribuye a la contaminación de suelos y cuerpos de agua, afectando la flora y fauna local, además de representar un reto logístico para su gestión.
 Solución: Los ecobloques proporcionan una forma innovadora de reutilizar estos residuos no reciclables. Al compactar estos desechos en botellas plásticas de entre 1,5 y 2,5 litros, se crean bloques que pueden ser utilizados en la construcción de infraestructuras, como bancos, muros y caminos. Este proceso no solo ayuda a reducir la cantidad de basura en el medio ambiente, sino que también convierte materiales de desecho en recursos útiles para proyectos comunitarios.
 Razón del proyecto: La elección de los ecobloques como tema se debe a su capacidad de ofrecer una solución accesible y sostenible para la gestión de residuos no reciclables. Esta iniciativa no solo promueve la conciencia ambiental entre la comunidad, sino que también permite que los habitantes participen activamente en la creación de espacios más limpios y sostenibles.
